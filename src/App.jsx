@@ -14,7 +14,7 @@ import Button from './components/Button'
 
 const App = () => {
   return (
-    <div className="bg-primary w-screen overflow-hidden">
+    <div className="bg-primary w-screen overflow-hidden ">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} `}>
           <Navbar/>
@@ -38,9 +38,9 @@ const App = () => {
           <Testimonials/>
           <Clients/>
           <CTA/>
-          <Footer/>
 
       </div>
+          <Footer/>
 
 
 

@@ -21,7 +21,7 @@ const Testimonials = () => {
       </div>
       <div className='flex flex-row'>
         {feedback.map((feed , index)=>(
-            <FeedbackCard {...feed}/>
+            <FeedbackCard {...feed} key={index}/>
            ))}
       </div>
 

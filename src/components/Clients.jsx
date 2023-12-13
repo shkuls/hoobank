@@ -6,7 +6,7 @@ const Clients = () => {
     <div className={'w-full flex flex-row flex-wrap my-9'}>
       {
         clients.map((client  , index)=>(
-          <img src={client.logo} className='scale-[0.5] object-contain flex flex-1 w-[200px]'/>
+          <img src={client.logo} key={index} className='scale-[0.5] object-contain flex flex-1 w-[200px]'/>
         ))
       }
     </div>
